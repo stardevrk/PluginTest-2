@@ -1,0 +1,13 @@
+{
+	"pods": {
+		"Firebase/Storage": {
+			"type": "pod",
+			"id": "Firebase/Storage"
+		}
+	},
+	"sources": {
+		"https://github.com/CocoaPods/Specs.git": true
+	},
+	"iosMinVersion": "11.0",
+	"useFrameworks": true
+}
