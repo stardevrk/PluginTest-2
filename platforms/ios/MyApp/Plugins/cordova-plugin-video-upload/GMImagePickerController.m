@@ -221,7 +221,7 @@
               } else {
                 NSURL *downloadURL = URL;
                   NSLog(@"Upload Succeeded with URL ---- %@", downloadURL.absoluteString);
-                  self.resultURL = [[NSString alloc] initWithString:documentsURL.absoluteString];
+                  self.resultURL = [[NSString alloc] initWithString:downloadURL.absoluteString];
                   dispatch_async(dispatch_get_main_queue(), ^(void) {
                       [self.progressController dismissViewControllerAnimated:YES completion:nil];
                       [self finishPickingAssets:self];
